@@ -46,5 +46,7 @@ jobs:
       run : sudo suitecloud --version
     - name: whoami
       run : sudo whoami
+    - name: create jar
+      run : (cd /usr/local/lib/node_modules/@oracle/suitecloud-cli && npm install)
     - name: Validate Suiteapp
       run : npm run validate
