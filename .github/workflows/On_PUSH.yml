@@ -50,3 +50,4 @@ jobs:
       run : (cd /usr/local/lib/node_modules/@oracle/suitecloud-cli && npm install)
     - name: Validate Suiteapp
       run : npm run validate
+      
